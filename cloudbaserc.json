@@ -1,0 +1,20 @@
+{
+    "envId": "my-hexo-2g48xh5l6d36e0e7",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "region": "ap-shanghai",
+    "framework": {
+        "name": "my-hexo",
+        "plugins": {
+            "hexo": {
+                "use": "@cloudbase/framework-plugin-website",
+                "inputs": {
+                    "buildCommand": "npx hexo generate",
+                    "outputPath": "./public"
+                }
+            }
+        }
+    }
+}
